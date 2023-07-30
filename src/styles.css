@@ -14,11 +14,37 @@
 .homepage-h2 {
   font-size: 58px;
   padding-top: 100px;
-  
 }
+@media (max-width: 900px) {
+  h2.homepage-h2 {
+    font-size: 40px;
+  }
+  h1.homepage-h1 {
+    font-size: 55px;
+  }
+  h3.homepage-h3 {
+    font-size: 20px;
+  }
+  .homepage-app-title {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .homepage-app-p {
+    text-align: center;
+    padding: 20px;
+  }
+  .launch-app-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 .homepage-h1 {
   font-size: 86px;
 }
+
 .homepage-h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -67,10 +93,12 @@
 .homepage-app-title {
   font-size: 45px;
 }
+
 .homepage-app-p {
   font-size: 20px;
   margin-top: 10px;
 }
+
 #row-app {
   margin-top: 80px;
 }
@@ -92,12 +120,26 @@
   font-size: 96px;
   text-align: center;
 }
+@media (max-width: 900px) {
+  .h1-about {
+    font-size: 60px;
+    margin-top: 80px;
+  }
+}
 
 .h3-about {
   font-size: 24px;
   opacity: 0.7;
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  .h3-about {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+}
+
 .p-about {
   font-size: 18px;
   margin-top: 20px;
@@ -122,12 +164,23 @@
   text-align: center;
   display: block;
 }
+@media (max-width: 900px) {
+  #email-link {
+    font-size: 20px;
+  }
+}
 
 #contact-me {
   font-size: 48px;
   text-align: center;
   display: block;
   margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  #contact-me {
+    font-size: 30px;
+  }
 }
 
 #about-images {
