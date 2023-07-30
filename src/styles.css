@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.homepage-h1,
+.homepage-h2,
+.homepage-h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.homepage-h2 {
+  font-size: 58px;
+  padding-top: 100px;
+  
+}
+.homepage-h1 {
+  font-size: 86px;
+}
+.homepage-h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+
+.links {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-button {
+  border: 1px solid var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about-button {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.launch-app-button {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+#homepage-projects {
+  margin-top: 50px;
+}
+.homepage-app-title {
+  font-size: 45px;
+}
+.homepage-app-p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#row-app {
+  margin-top: 80px;
+}
+#navigation {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/*ABOUT.HTML*/
+
+.h1-about,
+.h2-about,
+.h3-about {
+  margin: 0;
+  text-align: center;
+}
+
+.h1-about {
+  margin-top: 45px;
+  font-size: 96px;
+  text-align: center;
+}
+
+.h3-about {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+.p-about {
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.homepage-link {
+  text-align: center;
+}
+
+#email-link:hover {
+  text-decoration: underline;
+  color: #0a6ad1;
+}
+#email-link {
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+#contact-me {
+  font-size: 48px;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+
+#about-images {
+  margin-top: 30px;
+}
