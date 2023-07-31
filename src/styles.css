@@ -23,6 +23,7 @@ h2 {
 p {
   font-family: var(--text-font);
   font-weight: lighter;
+  line-height: 1.5;
 }
 button,
 a {
@@ -35,28 +36,29 @@ a {
 }
 @media (max-width: 900px) {
   h2.homepage-h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   h1.homepage-h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
   h3.homepage-h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .homepage-app-title {
-    margin-top: 20px;
     text-align: center;
   }
   .homepage-app-p {
     text-align: center;
-    padding: 20px;
   }
   .launch-app-button {
     display: flex;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
+}
+.project-description {
+  padding: 40px 50px;
 }
 
 .homepage-h1 {
@@ -121,6 +123,7 @@ a {
 #row-app {
   margin-top: 80px;
 }
+
 #navigation {
   padding-left: 30px;
   padding-right: 30px;
