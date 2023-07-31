@@ -6,6 +6,7 @@
   --text-font: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .hero {
   background-color: var(--background-color);
   padding-top: 50px;
