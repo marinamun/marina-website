@@ -132,24 +132,23 @@ a {
 }
 /*ABOUT.HTML*/
 
-.about-body {
-  padding: 20px 30px;
-}
-
 .about-hero {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+.about-description {
+  margin: auto;
+}
 
 .profile-pic {
   display: block;
-  margin: 100px;
+  margin: 100px auto;
 }
 
 .h1-about {
   font-size: 66px;
 
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 @media (max-width: 900px) {
@@ -159,20 +158,20 @@ a {
     text-align: center;
   }
   .h3-about {
-    font-size: 19px;
+    font-size: 10px;
     margin-bottom: 40px;
     text-align: center;
   }
   .p-about {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 0px 20px;
   }
-
   #email-link {
     font-size: 20px;
   }
   #contact-me {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -184,8 +183,7 @@ a {
 .p-about {
   font-size: 18px;
   margin-top: 20px;
-  margin-bottom: 25px;
-  padding-right: 25px;
+  margin-bottom: 35px;
 }
 
 .homepage-link {
@@ -198,7 +196,7 @@ a {
 }
 #email-link {
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
   text-align: center;
   display: block;
