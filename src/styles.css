@@ -176,9 +176,7 @@ a {
     font-size: 16px;
     padding: 0px 10px;
   }
-  #email-link {
-    font-size: 20px;
-  }
+
   #contact-me {
     font-size: 20px;
   }
@@ -188,22 +186,23 @@ a {
   text-align: center;
 }
 
-#email-link:hover {
-  text-decoration: underline;
-  color: #0a6ad1;
-}
-#email-link {
-  color: var(--primary-color);
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  margin-bottom: 100px;
-}
-
 #contact-me {
   font-size: 48px;
   text-align: center;
   display: block;
   margin-top: 30px;
+}
+
+/*CONTACT*/
+
+#contact-link {
+  color: #f495bf;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 100px;
+}
+#contact-link:hover {
+  color: #ee3f86;
+  font-weight: bold;
 }
