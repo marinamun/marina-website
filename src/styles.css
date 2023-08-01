@@ -54,8 +54,6 @@ a {
   .default-button {
     display: flex;
     justify-content: center;
-    margin-left: 25px;
-    margin-right: 25px;
   }
 }
 .project-description {
@@ -126,11 +124,35 @@ a {
 }
 
 #navigation {
-
   padding: 20px 35px;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
+
+#social-links {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  padding: 10px 13px;
+  border-radius: 50px;
+  font-size: 30px;
+  margin: 0px 20px;
+  transition: all 100ms ease-in-out;
+}
+
+#social-links:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+footer h4 {
+  font-family: var(--title-font);
+  font-size: 45px;
+}
+
+footer {
+  margin: 60px 0px;
+}
+
 /*ABOUT.HTML*/
 
 .content-container {
@@ -197,13 +219,11 @@ a {
 /*CONTACT*/
 
 #contact-link {
-  color: #f495bf;
+  color: var(--primary-color);
   text-decoration: none;
   text-align: center;
   display: block;
-  margin-bottom: 100px;
 }
 #contact-link:hover {
-  color: #ee3f86;
   font-weight: bold;
 }
