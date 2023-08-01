@@ -126,9 +126,10 @@ a {
 }
 
 #navigation {
-  padding-left: 30px;
-  padding-right: 30px;
+
+  padding: 20px 35px;
   font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
 }
 /*ABOUT.HTML*/
 
