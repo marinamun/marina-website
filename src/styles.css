@@ -227,3 +227,7 @@ footer {
 #contact-link:hover {
   font-weight: bold;
 }
+.credits {
+  font-size: 10px;
+  text-align: center;
+}
