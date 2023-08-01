@@ -152,7 +152,7 @@ a {
 }
 .default-h3 {
   font-size: 24px;
-  opacity: 0.7;
+  font-weight: bolder;
 }
 .default-p {
   font-size: 18px;
@@ -162,19 +162,19 @@ a {
 
 @media (max-width: 900px) {
   .default-h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 80px;
     text-align: center;
   }
   .default-h3 {
-    font-size: 10px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    margin-bottom: 15px;
     text-align: center;
   }
   .default-p {
     text-align: center;
-    font-size: 18px;
-    padding: 0px 20px;
+    font-size: 16px;
+    padding: 0px 10px;
   }
   #email-link {
     font-size: 20px;
