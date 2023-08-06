@@ -203,6 +203,14 @@ footer {
   #contact-me {
     font-size: 20px;
   }
+  .container-about {
+    max-width: auto;
+  }
+}
+
+.container-about {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .homepage-link {
